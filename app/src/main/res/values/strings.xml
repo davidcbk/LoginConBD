@@ -6,8 +6,8 @@
     <string name="hint_password">Contraseña</string>
     <string name="hint_name">Nombre completo</string>
     <string name="btn_login">LOGIN</string>
-    <string name="btn_register">REGISTER</string>
-    <string name="btn_link_to_register">¿No tiene cuenta?Not a member? Registrarse</string>
+    <string name="btn_register">REGISTRAR</string>
+    <string name="btn_link_to_register">¿No tiene cuenta?Registrarse</string>
     <string name="btn_link_to_login">Loguearse</string>
     <string name="welcome">Bienvenido</string>
     <string name="btn_logout">Cerrar sesión</string>

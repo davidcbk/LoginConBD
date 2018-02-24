@@ -20,19 +20,19 @@ public class SQLiteHandler extends SQLiteOpenHelper {
 
 	// All Static variables
 	// Database Version
-	private static final int DATABASE_VERSION = 1;
+	private static final int DATABASE_VERSION = 3;
 
 	// Database Name
-	private static final String DATABASE_NAME = "android_api";
+	private static final String DATABASE_NAME = "login";
 
 	// Login table name
-	private static final String TABLE_USER = "user";
+	private static final String TABLE_USER = "users";
 
 	// Login Table Columns names
 	private static final String KEY_ID = "id";
 	private static final String KEY_NAME = "name";
 	private static final String KEY_EMAIL = "email";
-	private static final String KEY_UID = "uid";
+	private static final String KEY_UID = "unique_id";
 	private static final String KEY_CREATED_AT = "created_at";
 
 	public SQLiteHandler(Context context) {
